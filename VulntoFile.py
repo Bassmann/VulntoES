@@ -224,7 +224,6 @@ class OpenVasES:
         # Parse XML directly from the file path
         self.displayInputFileName()
         return xml.parse(self.input_file)
-        self.displayInputFileName()
 
     def __createIssuesList(self):
         "Returns a list of dictionaries for each issue in the report"
